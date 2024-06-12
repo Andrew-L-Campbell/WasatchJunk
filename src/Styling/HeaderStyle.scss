@@ -1,0 +1,57 @@
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%; 
+
+
+    
+
+    .logo-container {
+        margin-right: 20px; 
+    }
+
+    .logo {
+        height: 90px;
+        width: auto;
+    }
+
+    .header-navs {
+        display: flex;
+        align-items: center;
+        margin-right: auto; 
+
+        a {
+            margin: 0 25px;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .active-link {
+            color: #2A96ED; 
+            font-weight: bold; 
+        }
+    }
+
+    .call-us {
+        display: flex;
+        align-items: center;
+        font-size: 1.3em;
+        margin-left: 20px; 
+        margin-right: 40px; 
+        white-space: nowrap;
+
+        .phone-logo {
+            margin-right: 10px;
+            padding: 5px;
+        }
+        .phone {
+            color: #2a35ed;
+        }
+    }
+}

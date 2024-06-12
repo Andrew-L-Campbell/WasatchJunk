@@ -1,0 +1,46 @@
+.city-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(240, 237, 237);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .city-title {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .city-desc {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .main-description {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .steps-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 1em;
+    color: #444;
+  }
+  
+  .cta-description {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .cta-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cta-link:hover {
+    text-decoration: underline;
+  }
